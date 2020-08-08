@@ -40,7 +40,3 @@ This is the result of clicking on a name. "Return" again leads to the search pag
 <img src="p6.png">
 </p>
 This is a result of clicking "full family details".
-
-## Downsides
-1) Database doesn't have all details.
-2) 
