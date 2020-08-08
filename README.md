@@ -10,7 +10,7 @@ The search can be done by two methods, either by Name or by Age and Gender.
 ### <ins>Search using Name</ins>
 Example: Search for all people with a 'varun' in their first name and 'soni' in their surname
 <p align="center">
-<img src="p2.png">
+<img src="p2'.png">
 </p>
 Enter either first name, middle name, or last name. It is also possible to enter part of the name i.e. va instead of varun. Click "search".
 
@@ -26,7 +26,7 @@ Enter either gender, lower bound for age, or upper bound for age, or any two or 
 ### <ins>Example</ins>
 Searching all people with 'varun' in their first name
 <p align="center">
-<img src="p4.png">
+<img src="p4'.png">
 </p>
 
 On clicking "Soni, Varun Satish" we get
