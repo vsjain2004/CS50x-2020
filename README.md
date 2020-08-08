@@ -1,4 +1,4 @@
-<h1 align="center">Bisa Humad Jain Samaj (Mumbai) Directory Search</h1>
+<h1 align="center">Bisa Humad Jain Samaj Directory Search</h1>
 
 ## <ins>Description</ins>
 
@@ -40,4 +40,4 @@ On clicking "Full Family Details" we can get details of other family members
 </p>
 "Return", in each senario, leads to the search directory page.<p></p>
 
-On clicking the search button, a list of names will be presented, like in the above example, but there mst be atleast one name corresponding to your search.
+Any search would yeild a list of names, like in the above example, but there must be atleast one name corresponding to the search.
