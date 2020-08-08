@@ -27,7 +27,7 @@ Enter either gender, lower bound for age, or upper bound for age, or any two or 
 
 ## <ins>Results</ins>
 
-### <ins>Example 1</ins>
+### <ins>Example</ins>
 Searching all people with 'va' in their first name, 's' in their middle name and 's' in their surname
 <p align="center">
 <img src="p4.png">
