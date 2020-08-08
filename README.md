@@ -23,6 +23,8 @@ Enter either firstname, middlename, or surname, or any two or all of these. It i
 </p>
 Enter either gender, lower bound for age, or upper bound for age, or any two or all of these. Click "search".
 
+## Results
+
 ### Search result 1
 <p align="center">
 <img src="p4.png">
@@ -34,3 +36,9 @@ On clicking the search button, a list of names will be presented, like above, bu
 <img src="p5.png">
 </p>
 This is the result of clicking on a name. "Return" again leads to the search page, while "full family details" gives family details.
+
+### Search result 3
+<p align="center">
+<img src="p6'.png">
+</p>
+This is a result of clicking "full family details".
