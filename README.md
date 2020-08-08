@@ -8,11 +8,11 @@ The Bisa Humad Jain Samaj is a small community located in Mumbai, India. This pr
 The search can be done by two methods, either by Name or by Age and Gender.
 
 ### <ins>Search using Name</ins>
-Example: Search for all people with a 'v' in their first name and 's' in their surname
+Example: Search for all people with a 'varun' in their first name and 'soni' in their surname
 <p align="center">
 <img src="p2.png">
 </p>
-Enter either first name, middle name, or surname, or any two or all of these. It is also possible to enter part of the name i.e. v or va instead of varun. Click "search".
+Enter either first name, middle name, or last name. It is also possible to enter part of the name i.e. va instead of varun. Click "search".
 
 ### <ins>Search using Age and Gender</ins>
 Example: Searching for all females between age of 0 and 10
@@ -24,7 +24,7 @@ Enter either gender, lower bound for age, or upper bound for age, or any two or 
 ## <ins>Results</ins>
 
 ### <ins>Example</ins>
-Searching all people with 'va' in their first name, 's' in their middle name and 's' in their surname
+Searching all people with 'varun' in their first name
 <p align="center">
 <img src="p4.png">
 </p>
@@ -34,7 +34,7 @@ On clicking "Soni, Varun Satish" we get
 <img src="p5.png">
 </p>
 
-On clicking "Full Family Details" we get 
+On clicking "Full Family Details" we can get details of other family members
 <p align="center">
 <img src="p6'.png">
 </p>
