@@ -18,3 +18,13 @@ The search can be done by two methods as shown before: Name or Age and Gender.
 Enter either firstname, middlename, or surname, or any two or all of these. It is also possible to enter part of the name i.e. v or va instead of varun. Click "search".
 
 ### Search using Age and Gender
+<p align="center">
+<img src="p3.png">
+</p>
+Enter either gender, lower bound for age, or upper bound for age, or any two or all of these. Click "search".
+
+### Search result 1
+<p align="center">
+<img src="p4.png">
+</p>
+On clicking the search button, a list of names will be presented, like above, but there mst be atleast one name corresponding to your search. Clicking a name will give more information of that person, while the return goes to the search page.
