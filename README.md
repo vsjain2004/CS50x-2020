@@ -27,4 +27,20 @@ Enter either gender, lower bound for age, or upper bound for age, or any two or 
 <p align="center">
 <img src="p4.png">
 </p>
-On clicking the search button, a list of names will be presented, like above, but there mst be atleast one name corresponding to your search. Clicking a name will give more information of that person, while the return goes to the search page.
+On clicking the search button, a list of names will be presented, like above, but there mst be atleast one name corresponding to your search. Clicking a name will give more information of that person, while "return" goes to the search page.
+
+### Search result 2
+<p align="center">
+<img src="p5.png">
+</p>
+This is the result of clicking on a name. "Return" again leads to the search page, while "full family details" gives family details.
+
+### Search result 3
+<p align="center">
+<img src="p6.png">
+</p>
+This is a result of clicking "full family details".
+
+## Downsides
+1) Database doesn't have all details.
+2) 
