@@ -8,7 +8,7 @@ The Bisa Humad Jain Samaj is a small community located in Mumbai, India. This pr
 The search can be done by two methods, either by Name or by Age and Gender.
 
 ### <ins>Search using Name</ins>
-Example: Search for all people with a 'varun' in their first name and 'soni' in their surname
+Example: Search for all people with a 'varun' in their first name and 'soni' in their last name
 <p align="center">
 <img src="p2'.png">
 </p>
@@ -24,7 +24,7 @@ Enter either gender, lower bound for age, or upper bound for age, or any two or 
 ## <ins>Results</ins>
 
 ### <ins>Example</ins>
-Searching all people with 'varun' in their first name
+Searching all people with 'varun' in their first name yeilds
 <p align="center">
 <img src="p4'.png">
 </p>
