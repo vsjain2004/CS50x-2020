@@ -2,10 +2,6 @@
 
 ## <ins>Description</ins>
 
-<p align="center">
-<img src="p1.png">
-</p>
-
 The Bisa Humad Jain Samaj is a small community located in Mumbai, India. This project provides them with a search directory. This search directory can look for any individual, and through them, any family in this community. It also enables individuals can be searched by age, which helps match making within the community.This has been implemented using python and html for the CS50x 2020 final project.
 
 ## <ins>How to use</ins>
