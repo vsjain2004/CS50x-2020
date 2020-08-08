@@ -33,7 +33,7 @@ Searching all people with 'va' in their first name, 's' in their middle name and
 <img src="p4.png">
 </p>
 On clicking the search button, a list of names will be presented, like above, but there mst be atleast one name corresponding to your search.
-
+<p></p>
 On clicking "Soni, Varun Satish" we get
 <p align="center">
 <img src="p5.png">
