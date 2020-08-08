@@ -1,44 +1,46 @@
 <h1 align="center">Bisa Humad Jain Samaj (Mumbai) Directory Search</h1>
 
-## Description
+## <ins>Description</ins>
 
 <p align="center">
 <img src="p1.png">
 </p>
 
-This is a directory search, implemented using python and html for the CS50x-2020 final project. This enables the Bisa Humad Jain Samaj with a search cum macth finding site.
+The Bisa Humad Jain Samaj is a small community located in Mumbai, India. This project provides them with a search directory. This search directory can look for any individual, and through them, any family in this community. It also enables individuals can be searched by age, which helps match making within the community.This has been implemented using python and html for the CS50x 2020 final project.
 
-## How to use
-The search can be done by two methods as shown before: Name or Age and Gender.
+## <ins>How to use</ins>
+The search can be done by two methods, either by Name or by Age and Gender.
 
-### Search using Name
+### <ins>Search using Name</ins>
+Example: Search for all people with a 'v' in their first name and 's' in their surname
 <p align="center">
 <img src="p2.png">
 </p>
-Enter either firstname, middlename, or surname, or any two or all of these. It is also possible to enter part of the name i.e. v or va instead of varun. Click "search".
+Enter either first name, middle name, or surname, or any two or all of these. It is also possible to enter part of the name i.e. v or va instead of varun. Click "search".
 
-### Search using Age and Gender
+### <ins>Search using Age and Gender</ins>
+Example: Searching for all females between age of 0 and 10
 <p align="center">
 <img src="p3.png">
 </p>
 Enter either gender, lower bound for age, or upper bound for age, or any two or all of these. Click "search".
 
-## Results
+## <ins>Results</ins>
 
-### Search result 1
+### <ins>Example 1</ins>
+Searching all people with 'va' in their first name, 's' in their middle name and 's' in their surname
 <p align="center">
 <img src="p4.png">
 </p>
-On clicking the search button, a list of names will be presented, like above, but there mst be atleast one name corresponding to your search. Clicking a name will give more information of that person, while "return" goes to the search page.
+On clicking the search button, a list of names will be presented, like above, but there mst be atleast one name corresponding to your search.
 
-### Search result 2
+On clicking "Soni, Varun Satish" we get
 <p align="center">
 <img src="p5.png">
 </p>
-This is the result of clicking on a name. "Return" again leads to the search page, while "full family details" gives family details.
 
-### Search result 3
+On clicking "Full Family Details" we get 
 <p align="center">
 <img src="p6'.png">
 </p>
-This is a result of clicking "full family details".
+"Return", in each senario, leads to the search directory page.
