@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            Bisa Humad Jain Samaj: Search result
+        </title>
+    </head>
+    <body>
+        {% if q %}
+            <h1 align="center">Bisa Humad Jain Samaj: Search result</h1><hr>
+            {% for t in q %}
+                    {% if t[1] == '' %}
+                        <a href="/name/{{ t[0] }} {{ t[2] }}">{{ t[2] }}, {{ t[0] }}</a> <hr>
+                    {% else %}
+                        <a href="/name/{{ t[0] }} {{ t[1] }} {{ t[2] }}">{{ t[2] }}, {{ t[0] }} {{ t[1] }}</a> <hr>
+                    {% endif %}
+            {% endfor %}
+        {% endif %}
+        {% if j %}
+            {% for s in j %}
+                {% if s[1] == '' %}
+                    Name: {{ s[2] }}, {{ s[0] }} <br>
+                    {% if s[3] == None %}
+                        DOB: Not in data <br>
+                    {% else %}
+                        DOB: {{ s[3] }} <br>
+                    {% endif %}
+                    {% if s[4] == '' %}
+                        Age: Not in data <br>
+                    {% else %}
+                        Age: {{ s[4] }} <br>
+                    {% endif %}
+                    {% if s[5] == '' %}
+                        Gender: Not in data <br>
+                    {% else %}
+                        Gender: {{ s[5] }} <br>
+                    {% endif %}
+                    {% if s[6] == '' %}
+                        Marital Status: Not in data <br>
+                    {% else %}
+                        Marital Status: {{ s[6] }} <br>
+                    {% endif %}
+                {% else %}
+                    Name: {{ s[2] }}, {{ s[0] }} {{ s[1] }} <br>
+                    {% if s[3] == None %}
+                        DOB: Not in data <br>
+                    {% else %}
+                        DOB: {{ s[3] }} <br>
+                    {% endif %}
+                    {% if s[4] == '' %}
+                        Age: Not in data <br>
+                    {% else %}
+                        Age: {{ s[4] }} <br>
+                    {% endif %}
+                    {% if s[5] == '' %}
+                        Gender: Not in data <br>
+                    {% else %}
+                        Gender: {{ s[5] }} <br>
+                    {% endif %}
+                    {% if s[6] == '' %}
+                        Marital Status: Not in data <br>
+                    {% else %}
+                        Marital Status: {{ s[6] }} <p></p>
+                    {% endif %}
+                {% endif %}
+                {% if c == "name" %}
+                    <a href="/family/{{ s[0] }} {{ s[1] }} {{ s[2] }}">Full Family Details</a><p></p>
+                {% else %}
+                    <hr>
+                {% endif %}
+            {% endfor %}
+            {% if c == "family" %}
+                For more details, please contact the Bisa Humad Jain Samaj Comittee.<p></p>
+            {% endif %}
+        {% endif %}
+        {% if s %}
+            {% for r in s %}
+                {{ r }} <p></p>
+            {% endfor %}
+        {% endif %}
+        <a href="/">Return</a>
+    </body>
+</html>
